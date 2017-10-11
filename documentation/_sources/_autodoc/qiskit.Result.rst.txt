@@ -1,0 +1,30 @@
+qiskit\.Result
+==============
+
+
+.. currentmodule:: qiskit
+
+.. autoclass:: Result
+
+   
+
+   
+   .. rubric:: Methods
+
+   .. autosummary::
+   
+      ~Result.__init__
+      ~Result.average_data
+      ~Result.circuit_statuses
+      ~Result.get_counts
+      ~Result.get_data
+      ~Result.get_error
+      ~Result.get_names
+      ~Result.get_ran_qasm
+      ~Result.get_status
+   
+   
+
+   
+   
+   

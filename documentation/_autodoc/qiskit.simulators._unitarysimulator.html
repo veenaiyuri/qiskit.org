@@ -5,13 +5,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>qiskit.simulators._unitarysimulator module &#8212; QISKit SDK 0.3.5 documentation</title>
+    <title>qiskit.simulators._unitarysimulator module &#8212; QISKit SDK 0.3.6 documentation</title>
     <link rel="stylesheet" href="../_static/bizstyle.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
     <script type="text/javascript">
       var DOCUMENTATION_OPTIONS = {
         URL_ROOT:    '../',
-        VERSION:     '0.3.5',
+        VERSION:     '0.3.6',
         COLLAPSE_INDEX: false,
         FILE_SUFFIX: '.html',
         HAS_SOURCE:  true,
@@ -23,20 +23,21 @@
     <script type="text/javascript" src="../_static/doctools.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/javascript" src="../_static/bizstyle.js"></script>
+    <script type="text/javascript" src="../_static/bootstrap.min.js"></script>
+    <link rel="shortcut icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="qiskit.unroll package" href="qiskit.unroll.html" />
-    <link rel="prev" title="qiskit.simulators._simulatortools module" href="qiskit.simulators._simulatortools.html" />
-
-<div id="head" class="head">
-    <a href="../"> QISKit </a>
-</div>
+    <link rel="next" title="qiskit.simulators.local_backends" href="qiskit.simulators.local_backends.html" />
+    <link rel="prev" title="qiskit.simulators._qasmsimulator module" href="qiskit.simulators._qasmsimulator.html" />
 <meta name="viewport" content="width=device-width,initial-scale=1.0">
 <!--[if lt IE 9]>
     <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
     <![endif]-->
   </head>
   <body>
+<div id="head" class="head">
+    <a href="/">QISKit</a>
+</div>
     <div class="related" role="navigation" aria-label="related navigation">
       <h3>Navigation</h3>
       <ul>
@@ -47,28 +48,70 @@
           <a href="../py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
         <li class="right" >
-          <a href="qiskit.unroll.html" title="qiskit.unroll package"
+          <a href="qiskit.simulators.local_backends.html" title="qiskit.simulators.local_backends"
              accesskey="N">next</a> |</li>
         <li class="right" >
-          <a href="qiskit.simulators._simulatortools.html" title="qiskit.simulators._simulatortools module"
+          <a href="qiskit.simulators._qasmsimulator.html" title="qiskit.simulators._qasmsimulator module"
              accesskey="P">previous</a> |</li>
-        <li class="nav-item nav-item-0"><a href="../index.html">QISKit SDK 0.3.5 documentation</a> &#187;</li>
-          <li class="nav-item nav-item-1"><a href="modules.html" >qiskit</a> &#187;</li>
-          <li class="nav-item nav-item-2"><a href="qiskit.html" >qiskit package</a> &#187;</li>
-          <li class="nav-item nav-item-3"><a href="qiskit.simulators.html" accesskey="U">qiskit.simulators package</a> &#187;</li> 
+<li id="toc-toggle">
+<a class="btn btn-primary" role="button" data-toggle="collapse"
+   href=".sphinxsidebar" aria-expanded="false" aria-controls="collapseExample">
+  TOC</a> |
+</li>
+
+        <li class="nav-item nav-item-0"><a href="../index.html">QISKit SDK 0.3.6 documentation</a> &#187;</li>
+
+          <li class="nav-item nav-item-1"><a href="qiskit.html" >qiskit package</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="qiskit.simulators.html" accesskey="U">qiskit.simulators package</a> &#187;</li> 
       </ul>
     </div>
       <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
         <div class="sphinxsidebarwrapper">
+
             <p class="logo"><a href="../index.html">
-              <img class="logo" src="../_static/qiskit-logo.gif" alt="Logo"/>
+              <img class="logo" src="../_static/qiskit-logo-white-no-margin.gif" alt="Logo"/>
             </a></p>
+<p class="logo-description">Quantum Information Software Kit</p>
+
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../install.html">Installation and setup</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quickstart.html">Getting started</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../qiskit.html">QISKit overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../dev_introduction.html">Developer documentation</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="qiskit.html">SDK reference</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="qiskit.html#submodules">Submodules</a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="qiskit.dagcircuit.html">qiskit.dagcircuit package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qiskit.extensions.html">qiskit.extensions package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qiskit.mapper.html">qiskit.mapper package</a></li>
+<li class="toctree-l3"><a class="reference internal" href="qiskit.qasm.html">qiskit.qasm package</a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="qiskit.simulators.html">qiskit.simulators package</a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="qiskit.simulators.html#submodules">Submodules</a><ul class="current">
+<li class="toctree-l5"><a class="reference internal" href="qiskit.simulators._localsimulator.html">qiskit.simulators._localsimulator module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="qiskit.simulators._qasm_cpp_simulator.html">qiskit.simulators._qasm_cpp_simulator module</a></li>
+<li class="toctree-l5"><a class="reference internal" href="qiskit.simulators._qasmsimulator.html">qiskit.simulators._qasmsimulator module</a></li>
+<li class="toctree-l5 current"><a class="current reference internal" href="#">qiskit.simulators._unitarysimulator module</a></li>
+</ul>
+</li>
+<li class="toctree-l4"><a class="reference internal" href="qiskit.simulators.html#functions">Functions</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="qiskit.unroll.html">qiskit.unroll package</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="qiskit.html#classes">Classes</a></li>
+<li class="toctree-l2"><a class="reference internal" href="qiskit.html#exceptions">Exceptions</a></li>
+</ul>
+</li>
+</ul>
+
+<p class="spacer"/>
   <h4>Previous topic</h4>
-  <p class="topless"><a href="qiskit.simulators._simulatortools.html"
-                        title="previous chapter">qiskit.simulators._simulatortools module</a></p>
+  <p class="topless"><a href="qiskit.simulators._qasmsimulator.html"
+                        title="previous chapter">qiskit.simulators._qasmsimulator module</a></p>
   <h4>Next topic</h4>
-  <p class="topless"><a href="qiskit.unroll.html"
-                        title="next chapter">qiskit.unroll package</a></p>
+  <p class="topless"><a href="qiskit.simulators.local_backends.html"
+                        title="next chapter">qiskit.simulators.local_backends</a></p>
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
@@ -124,13 +167,13 @@ a 2**n x 2**n complex numpy array representing the unitary matrix.</p>
         <span class="p">{</span>
             <span class="s2">&quot;name&quot;</span><span class="p">:</span> <span class="p">,</span> <span class="o">//</span> <span class="n">required</span> <span class="o">--</span> <span class="n">string</span>
             <span class="s2">&quot;params&quot;</span><span class="p">:</span> <span class="p">,</span> <span class="o">//</span> <span class="n">optional</span> <span class="o">--</span> <span class="nb">list</span><span class="p">[</span><span class="n">double</span><span class="p">]</span>
-            <span class="s2">&quot;qubits&quot;</span><span class="p">:</span> <span class="p">,</span> <span class="o">//</span> <span class="n">required</span> <span class="o">--</span> <span class="nb">list</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span>
+            <span class="s2">&quot;qubits&quot;</span><span class="p">:</span> <span class="p">,</span> <span class="o">//</span> <span class="n">optional</span> <span class="o">--</span> <span class="nb">list</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span>
             <span class="s2">&quot;clbits&quot;</span><span class="p">:</span> <span class="p">,</span> <span class="o">//</span><span class="n">optional</span> <span class="o">--</span> <span class="nb">list</span><span class="p">[</span><span class="nb">int</span><span class="p">]</span>
             <span class="s2">&quot;conditional&quot;</span><span class="p">:</span>  <span class="o">//</span> <span class="n">optional</span> <span class="o">--</span> <span class="nb">map</span>
                 <span class="p">{</span>
                     <span class="s2">&quot;type&quot;</span><span class="p">:</span> <span class="p">,</span> <span class="o">//</span> <span class="n">string</span>
-                    <span class="s2">&quot;mask&quot;</span><span class="p">:</span> <span class="p">,</span> <span class="o">//</span> <span class="nb">hex</span> <span class="n">string</span>
-                    <span class="s2">&quot;val&quot;</span><span class="p">:</span>  <span class="p">,</span> <span class="o">//</span> <span class="n">bhex</span> <span class="n">string</span>
+                    <span class="s2">&quot;mask&quot;</span><span class="p">:</span> <span class="p">,</span> <span class="o">//</span> <span class="n">big</span> <span class="nb">int</span>
+                    <span class="s2">&quot;val&quot;</span><span class="p">:</span>  <span class="p">,</span> <span class="o">//</span> <span class="n">big</span> <span class="nb">int</span>
                 <span class="p">}</span>
         <span class="p">},</span>
     <span class="p">]</span>
@@ -200,19 +243,26 @@ a 2**n x 2**n complex numpy array representing the unitary matrix.</p>
           <a href="../py-modindex.html" title="Python Module Index"
              >modules</a> |</li>
         <li class="right" >
-          <a href="qiskit.unroll.html" title="qiskit.unroll package"
+          <a href="qiskit.simulators.local_backends.html" title="qiskit.simulators.local_backends"
              >next</a> |</li>
         <li class="right" >
-          <a href="qiskit.simulators._simulatortools.html" title="qiskit.simulators._simulatortools module"
+          <a href="qiskit.simulators._qasmsimulator.html" title="qiskit.simulators._qasmsimulator module"
              >previous</a> |</li>
-        <li class="nav-item nav-item-0"><a href="../index.html">QISKit SDK 0.3.5 documentation</a> &#187;</li>
-          <li class="nav-item nav-item-1"><a href="modules.html" >qiskit</a> &#187;</li>
-          <li class="nav-item nav-item-2"><a href="qiskit.html" >qiskit package</a> &#187;</li>
-          <li class="nav-item nav-item-3"><a href="qiskit.simulators.html" >qiskit.simulators package</a> &#187;</li> 
+<li id="toc-toggle">
+<a class="btn btn-primary" role="button" data-toggle="collapse"
+   href=".sphinxsidebar" aria-expanded="false" aria-controls="collapseExample">
+  TOC</a> |
+</li>
+
+        <li class="nav-item nav-item-0"><a href="../index.html">QISKit SDK 0.3.6 documentation</a> &#187;</li>
+
+          <li class="nav-item nav-item-1"><a href="qiskit.html" >qiskit package</a> &#187;</li>
+          <li class="nav-item nav-item-2"><a href="qiskit.simulators.html" >qiskit.simulators package</a> &#187;</li> 
       </ul>
     </div>
     <div class="footer" role="contentinfo">
-        &#169; Copyright .
+        &#169; Copyright 2017 IBM Research.
+      Last updated on 2017/10/11.
       Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.3.
     </div>
   </body>
