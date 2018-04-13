@@ -1,0 +1,21 @@
+qiskit.extensions package
+=========================
+
+.. automodule:: qiskit.extensions
+
+
+Submodules
+----------
+
+.. autosummary::
+   :nosignatures:
+   :toctree:
+
+    standard
+    qiskit_simulator
+    quantum_initializer
+
+
+
+
+

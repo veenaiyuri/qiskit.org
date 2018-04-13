@@ -1,0 +1,53 @@
+qiskit package
+==============
+
+.. automodule:: qiskit
+
+
+Submodules
+----------
+
+.. autosummary::
+   :nosignatures:
+   :toctree:
+
+    backends
+    dagcircuit
+    extensions
+    mapper
+    qasm
+    unroll
+
+
+Classes
+-------
+
+.. autosummary::
+   :nosignatures:
+   :toctree:
+   :template: autosummary/class.rst
+
+    ClassicalRegister
+    CompositeGate
+    Gate
+    Instruction
+    InstructionSet
+    JobProcessor
+    Measure
+    QuantumCircuit
+    QuantumJob
+    QuantumProgram
+    QuantumRegister
+    Reset
+    Result
+
+
+Exceptions
+----------
+
+.. autosummary::
+   :nosignatures:
+   :toctree:
+
+    QISKitError
+
