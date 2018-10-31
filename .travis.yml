@@ -20,3 +20,15 @@ deploy:
     manifest: manifest.yml
     on:
       branch: master
+  - provider: cloudfoundry
+    edge:
+      source: abdonrd/dpl
+      branch: patch-1
+    username: apikey
+    password: $IBM_CLOUD_API_KEY
+    api: https://api.ng.bluemix.net
+    organization: $IBM_CLOUD_ORGANIZATION
+    space: $IBM_CLOUD_SPACE
+    app_name: Qiskit website | staging
+    on:
+      branch: test-travis
