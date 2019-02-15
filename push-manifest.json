@@ -4,6 +4,11 @@
       "type": "script",
       "weight": 1
     },
+    "src/router.js": {
+      "crossorigin": "anonymous",
+      "type": "script",
+      "weight": 1
+    },
     "src/components/page-home.js": {
       "type": "script",
       "weight": 1
@@ -18,7 +23,31 @@
       "type": "script",
       "weight": 1
     },
+    "src/router.js": {
+      "crossorigin": "anonymous",
+      "type": "script",
+      "weight": 1
+    },
     "src/components/page-terra.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js": {
+      "type": "script",
+      "weight": 1
+    }
+  },
+  "/aer": {
+    "src/components/app-shell.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/router.js": {
+      "crossorigin": "anonymous",
+      "type": "script",
+      "weight": 1
+    },
+    "src/components/page-aer.js": {
       "type": "script",
       "weight": 1
     },
@@ -29,6 +58,11 @@
   },
   "/aqua": {
     "src/components/app-shell.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/router.js": {
+      "crossorigin": "anonymous",
       "type": "script",
       "weight": 1
     },
@@ -46,6 +80,11 @@
       "type": "script",
       "weight": 1
     },
+    "src/router.js": {
+      "crossorigin": "anonymous",
+      "type": "script",
+      "weight": 1
+    },
     "src/components/page-fun.js": {
       "type": "script",
       "weight": 1
@@ -57,6 +96,11 @@
   },
   "/vscode": {
     "src/components/app-shell.js": {
+      "type": "script",
+      "weight": 1
+    },
+    "src/router.js": {
+      "crossorigin": "anonymous",
       "type": "script",
       "weight": 1
     },
